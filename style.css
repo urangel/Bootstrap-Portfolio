@@ -1,0 +1,67 @@
+html {
+    background: url(assets/dark-honeycomb.png);
+}
+
+body {
+    background-color: #fff0;
+}
+
+.navbar-fixed-bottom {
+    background-color: #ddd;
+    border-top: 4px darkred solid;
+    margin-top: 10%;
+}
+
+.inner{
+    width:95%;
+    position:relative;
+    padding:0;
+    margin:0 auto;
+}
+
+.ribbon {
+    background-color: darkred;
+    color: white;
+    position: absolute;
+    bottom:10px;
+    right: 0;
+    text-align: center;   
+    width: 100%;
+}
+
+.footerText {
+    text-align: center;
+    text-justify: auto;
+    color: darkred;
+}
+
+img {
+    width:100%;
+    border-radius: 5px;
+}
+
+h3 {
+    font-weight: bold;
+    color: darkred;
+}
+
+p {
+    color: #222;
+}
+
+hr {
+    border-color: darkred;
+    border-radius: 1px;
+}
+
+#midBox {
+    background-color: #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#bioPic {
+    object-fit: contain;
+    float: left;
+    margin: 0 5% 2% 0;
+}
